@@ -1,3 +1,3 @@
 # golibs
  
- Useful Golang libraries and other reusable code.
+Useful Golang libraries and other reusable code.
