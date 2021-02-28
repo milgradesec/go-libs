@@ -28,6 +28,7 @@ func NewHTTPClient() *http.Client {
 			KeepAlive: 30 * time.Second,
 		}).Dial,
 
+		ForceAttemptHTTP2:   true,
 		TLSClientConfig:     tlsConfig,
 		TLSHandshakeTimeout: 10 * time.Second,
 	}
