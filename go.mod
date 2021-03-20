@@ -1,3 +1,3 @@
-module github.com/milgradesec/golibs
+module github.com/milgradesec/go-libs
 
 go 1.16
